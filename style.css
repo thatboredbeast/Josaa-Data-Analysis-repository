@@ -1,0 +1,99 @@
+html {
+  scroll-behavior: smooth;
+}
+#mainNavbar{
+  background-color: black;
+}
+/* #mainNavbar{
+
+  border-bottom: 3px solid black;
+  z-index:1;  
+  width:100%;
+  height:80px;
+  text-align:center;
+  vertical-align:middle;
+  line-height:50px;
+  top:0px;
+  margin-right: 5px;
+  overflow-y: hidden;
+} */
+.navbar-brand{
+  color: white;
+}
+
+.navbar-brand:hover{
+  color: #F86F03;
+}
+a{
+  color: white;
+}
+a:hover{
+  color: #F86F03;
+}
+.btn{
+  color: black;
+  border:solid 1px black;
+}
+.btn:hover{
+  background-color: #F86F03;
+}
+body{
+  /* background-color: #858A97; */
+  background-color: #F86F03;
+}
+.card{
+  border: solid 5px black;
+  border-radius:10px;
+  height: 80%;
+  min-width: 280px;
+  min-height: 280px;
+  margin-top: 15px;
+}
+.card-img-top{
+  margin-bottom: 1px;
+}
+
+.card-header{
+  background-color: black;
+}
+.card-text{
+  /* margin: 15px; */
+  width:95%;
+padding: 2px;
+}
+.nav-link{
+color: white;
+}
+.nav-link:hover{
+color: #F86F03;
+}
+
+.navbar-brand{
+  font-size:20px;
+}
+/* width=100% height="800" frameborder="0" scrolling="no" */
+
+#profile-img{
+  border-radius: 50%;
+  height: 362.5px;
+  width: 80%;
+  margin-top: 4px;
+  align-self: center;
+  border: 4px solid black;
+}
+
+/* @media(min-width: 768px){
+  #about-profile{
+      height:100%;
+      width:100%;
+  }
+} */
+#about-profile{
+  height:100%;
+  width:100%;
+}
+
+
+embed{
+  border-radius: 10px;
+}
